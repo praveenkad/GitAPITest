@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="GitAPISuite" verbose="1">
+
+	<listeners>
+		<listener class-name="com.listeners.BaseListener" />
+	</listeners>
+
+	<test name="GitAPITests">
+		<classes>
+			<class name="com.testsuite.httpclient.GitAPIHttpClient" />
+			<class
+				name="com.testsuite.httpurlconnection.GitAPIHttpUrlConnection" />
+		</classes>
+	</test>
+	
+
+</suite>
