@@ -20,6 +20,13 @@ public class GitAPIHttpUrlConnection extends TestSetUp {
 
 	static Logger logger = Logger.getLogger(GitAPIHttpUrlConnection.class);
 
+	
+	@Test
+	public void dummyTest() {
+		System.out.println("Hey there I'm created to demonstrate git merging");
+	}
+	
+	
 	/**
 	 * TestNG test method to test "Fetching the total number of Github repositories
 	 * for a given programming language" functionality using
